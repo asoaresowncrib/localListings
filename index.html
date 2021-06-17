@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!-- BOOTSTRAP -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      integrity="undefined"
+      crossorigin="anonymous"
+    />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Local Listings</title>
+  </head>
+
+  <body>
+    <div class="localListingsContainer container-fluid">
+      <h1 class="localListingsTitle">Local Listings</h1>
+
+      <div class="locationContainer">
+        <h2 class="locationHeader">
+          Current Location:
+          <h5 class="currentLocation">Austin, TX</h5>
+        </h2>
+        <button type="button" class="editLocationBtn">Change Location</button>
+      </div>
+
+      <div class="numOfHomesContainer">
+        <h2 class="numOfHomesTitle">
+          Number of Homes: <span class="numOfHomes">254</span>
+        </h2>
+      </div>
+
+      <div class="averagePriceContainer">
+        <h2 class="numOfHomesTitle">
+          Average Price of Homes: <span class="numOfHomes">$1,900,000</span>
+        </h2>
+      </div>
+
+      <h3 class="suggestedTitle">Suggested Homes:</h3>
+
+      <ul class="localHouses">
+        <li class="house">
+          <div class="houseOverlay">
+            <h2 class="houseTitle">Casa Blanca</h2>
+            <h3 class="priceTitle">
+              Price: <span class="housePrice">$100.00 </span>
+            </h3>
+            <button class="houseBtn">Learn More</button>
+          </div>
+        </li>
+
+        <li class="house">
+          <div class="houseOverlay">
+            <h2 class="houseTitle">White House</h2>
+            <h3 class="priceTitle">
+              Price: <span class="housePrice">$100.00 </span>
+            </h3>
+            <button class="houseBtn">Learn More</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
